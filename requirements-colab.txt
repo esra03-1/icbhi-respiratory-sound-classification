@@ -1,0 +1,12 @@
+# Uyumluluk aralıklarıdır; tam sürüm kilidi değildir.
+# Colab'da TensorFlow önceden kuruludur; gerçek ortam artifacts/environment.txt ile kaydedilir.
+tensorflow>=2.16,<3
+numpy>=1.26,<3
+pandas>=2.2,<4
+librosa>=0.10.2,<1
+soundfile>=0.12,<1
+scikit-learn>=1.4,<2
+matplotlib>=3.8,<4
+seaborn>=0.13,<1
+tqdm>=4.66,<5
+kaggle>=1.6,<3
