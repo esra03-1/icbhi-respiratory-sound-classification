@@ -50,7 +50,7 @@ Aşağıdaki keşif grafikleri eğitim kümesindeki sınıf ve cihaz dağılıml
 | **EfficientNet-B0** | ImageNet ağırlıklarıyla başlatılır. Önce omurga dondurularak sınıflandırıcı eğitilir, ardından omurganın son katmanlarının bir bölümü düşük öğrenme hızıyla ince ayara açılır. |
 | **Çoğunluk sınıfı referansı** | Eğitim kümesindeki en sık sınıf olan Normal’i her örnek için tahmin eder. |
 
-İki sinir ağında da sınıf dengesizliğinin eğitim kaybındaki etkisini azaltmak için yalnızca eğitim kümesinden hesaplanan ters frekans tabanlı `class_weight` kullanıldı. EfficientNet’in iki aşamasındaki en iyi ağırlıklar ayrı kaydedildi ve testte kullanılacak aşama **doğrulama kaybına** göre seçildi. İnce ayar sırasında omurganın ön eğitimli `BatchNormalization` istatistikleri korundu.
+İki sinir ağında da sınıf dengesizliğinin eğitim kaybındaki etkisini azaltmak için yalnızca eğitim kümesinden hesaplanan ters frekans tabanlı `class_weight` kullanıldı. EfficientNet’in iki aşamasındaki en iyi ağırlıklar ayrı kaydedildi ve testte kullanılacak aşama **doğrulama kaybına** göre seçildi. İnce ayar sırasında omurganın ön eğitimli `BatchNormalization` istatistikleri korundu. Bu deneyde doğrulama kaybına göre omurganın dondurulduğu ilk aşamanın ağırlıkları seçildi ve EfficientNet-B0 test sonuçları bu ağırlıklarla elde edildi.
 
 ![Eğitim ve doğrulama eğrileri](assets/fig4_training_curves.png)
 
