@@ -7,11 +7,7 @@
 
 Dijital stetoskop ses kayıtlarından ayrıştırılan solunum döngülerini **Log-Mel Spektrogram** temsillerine dönüştürerek **Normal**, **Crackle (Ral)**, **Wheeze (Hırıltı)** ve **Both (Ral + Hırıltı)** olmak üzere 4 akustik sınıfı tespit eden karşılaştırmalı derin öğrenme çalışmasıdır.
 
-> **Sürüm notu:** Notebook inceleme sonrasında düzenlendi; aşağıdaki skorlar ve `assets/` görselleri **önceki deneye** aittir. Düzenlenmiş kod yeniden çalıştırıldıktan sonra birlikte güncellenmelidir. Bu sürüm için yeni performans iddiası yapılmamaktadır.
->
-> Model hastalık tanısı üretmez. Normal etiketi sağlıklı kişi anlamına gelmez; klinik kullanım doğrulaması yapılmamıştır.
 
----
 
 ## 1. Veri Seti ve Ön İşleme Akışı
 
